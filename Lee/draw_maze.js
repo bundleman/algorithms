@@ -176,7 +176,7 @@ function MapGen(b, c, e, a, m) {
             //теперь текущий набор это соседние точки
             currentPoint = relPoint.slice();
         }
-        console.log(g);
+
 
         //восстанавливаем путь
         createPath(this);
