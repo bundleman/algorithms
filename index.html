@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="draw_maze.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<form id="frmMazeSize" action="">
+    <h3>Изменить размеры лабиринта:</h3>
+    <label>Ширина:</label><input type="text" name="widthMaze" value="25"/>
+    <label>Высота:</label><input type="text" name="heightMaze" value="30"/>
+    <button id="ok_btn">ОК</button>
+    <button id="reset_btn">Сбросить</button>
+    <button id="startSearchPath">Найти выход</button>
+</form>
+<canvas id="canvas" style="background: #ffffff;"></canvas>
+</body>
+</html>

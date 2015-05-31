@@ -1,0 +1,20 @@
+body{
+
+}
+#frmMazeSize{
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    display: block;
+    max-width: 650px;
+}
+#startSearchPath{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+}
+#canvas{
+    margin: auto;
+    display: block;
+}
